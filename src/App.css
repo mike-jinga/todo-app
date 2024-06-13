@@ -9,8 +9,8 @@
   body {
     background: linear-gradient(
       90deg,
-      rgba(48, 16, 255, 1) 0%,
-      rgba(100, 115, 255, 1) 100%
+      rgba(7, 13, 46, 0.932) 0%,
+      rgba(3, 5, 27, 0.932) 100%
     );
   }
   .todo-app {
@@ -30,6 +30,9 @@
     margin: 32px 0;
     color: #fff;
     font-size: 24px;
+    display: flex;
+    justify-content: center;
+
   }
   
   .complete {
@@ -39,6 +42,8 @@
   
   .todo-form {
     margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
   }
   
   .todo-input {
@@ -49,6 +54,8 @@
     width: 320px;
     background: transparent;
     color: #fff;
+    display: flex;
+    justify-content: center;
   }
   
   .todo-input::placeholder {
@@ -68,6 +75,8 @@
     );
     color: #fff;
     text-transform: capitalize;
+    display: flex;
+    justify-content: center;
   }
   
   .todo-input.edit {
@@ -97,8 +106,8 @@
     color: #fff;
     background: linear-gradient(
       90deg,
-      rgba(255, 118, 20, 1) 0%,
-      rgba(255, 84, 17, 1) 100%
+      rgb(27, 32, 107) 0%,
+      rgb(27, 74, 92) 100%
     );
   
     padding: 16px;
@@ -115,6 +124,8 @@
   }
   
   .todo-row:nth-child(4n + 2) {
+
+    
     background: linear-gradient(
       90deg,
       rgba(255, 12, 241, 1) 0%,
